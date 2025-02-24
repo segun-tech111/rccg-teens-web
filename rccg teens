@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teens Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 30%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Rccg Teens website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#bible-verse">Daily Bible Verse</a></li>
+            <li><a href="#testimonies">Testimonies</a></li>
+            <li><a href="#teachings">Teachings</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="bible-verse">
+            <h2>Daily Bible Verse</h2>
+            <p>"For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future." - Jeremiah 29:11</p>
+        </section>
+        <section id="testimonies">
+            <h2>Testimonies</h2>
+            <article>
+                <h3>John's Testimony</h3>
+                <p>I was lost, but now I am found. God has transformed my life...</p>
+            </article>
+            <article>
+                <h3>Jane's Testimony</h3>
+                <p>Through faith, I have overcome many challenges. God is always with me...</p>
+            </article>
+        </section>
+        <section id="teachings">
+            <h2>Teachings</h2>
+            <article>
+                <h3>Lesson 1: Love One Another</h3>
+                <p>Jesus teaches us to love one another as He has loved us...</p>
+            </article>
+            <article>
+                <h3>Lesson 2: Faith Over Fear</h3>
+                <p>Trust in the Lord with all your heart and lean not on your own understanding...</p>
+            </article>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="img1.jpg" alt="Event 1">
+                <img src="img2.jpg" alt="Event 2">
+                <img src="img3.jpg" alt="Event 3">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Teens Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
